@@ -7,11 +7,17 @@ from config import LOGGER_ID as LOG_GROUP_ID
 from AloneXMusic import app  
 
 photo = [
-    "https://telegra.ph/file/1949480f01355b4e87d26.jpg",
-    "https://telegra.ph/file/3ef2cc0ad2bc548bafb30.jpg",
-    "https://telegra.ph/file/a7d663cd2de689b811729.jpg",
-    "https://telegra.ph/file/6f19dc23847f5b005e922.jpg",
-    "https://telegra.ph/file/2973150dd62fd27a3a6ba.jpg",
+    "https://graph.org/file/3501b125413f412a68af3.jpg",
+    "https://graph.org/file/0098bc559fc7ccd23d6a0.jpg",
+    "https://graph.org/file/429b016d9e3c267e2d302.jpg",
+    "https://graph.org/file/f0b56460e26d35a39652a.jpg",
+    "https://graph.org/file/b8bf4bb76da7a7131d703.jpg",
+    "https://graph.org/file/00d2dcde1eaacafcb4500.jpg",
+    "https://graph.org/file/26ed6d9c358c7675eecf8.jpg",
+    "https://graph.org/file/4412ef9168a8f946e0a0c.jpg",
+    "https://graph.org/file/417cfc3bc3659bb6315f7.jpg",
+    "https://graph.org/file/9129379e3fd4f1fe52788.jpg",
+    "https://graph.org/file/99daa7a2e127b036266bf.jpg",
 ]
 
 
