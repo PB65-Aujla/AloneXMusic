@@ -110,7 +110,7 @@ async def in_help():
     answers = [
         InlineQueryResultArticle(
             title="💒 Whisper",
-            description=f"@YumikooBot [USERNAME | ID] [TEXT]",
+            description=f"@AujlaRoBot [USERNAME | ID] [TEXT]",
             input_message_content=InputTextMessageContent(f"**📍Usage:**\n\n@YumikooBot (Target Username or ID) (Your Message).\n\n**Example:**\n@YumikooBot @username I Wanna Phuck You"),
             thumb_url="https://graph.org/file/8a4a62d3a2d956d43d117.jpg",
             reply_markup=switch_btn
