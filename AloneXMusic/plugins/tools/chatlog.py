@@ -60,10 +60,14 @@ async def _greet(_, message):
             count = await app.get_chat_members_count(chat.id)
 
             msg = (
-                f"🙋𝐖ᴇʟᴄᴏᴍᴇ {message.chat.title}\n"
-                f"💳 {member.username}\n"
+                f"➖➖➖➖➖➖➖➖➖➖➖➖\n"
+                f"🙋𝐖ᴇʟᴄᴏᴍᴇ The {message.chat.title}\n"
+                f"____________________________________\n"
+                f"💳 {user.mention}\n"
                 f"🪪 {member.id}\n"
+                f"____________________________________\n"
                 f"👥𝐂ᴏᴍᴘʟᴇᴛᴇᴅ {count} 𝐌ᴇᴍʙᴇʀ𝐬🎉"
+                f"➖➖➖➖➖➖➖➖➖➖➖➖\n"
             )
             await app.send_photo(message.chat.id, photo=random.choice(photo), caption=msg, reply_markup=InlineKeyboardMarkup([
             [InlineKeyboardButton(f"🥺𝐊ɪᴅɴᴀᴘ 𝐌ᴇ🥺", url=f"https://t.me/{app.username}?startgroup=true")]
