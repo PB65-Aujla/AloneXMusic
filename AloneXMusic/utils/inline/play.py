@@ -33,25 +33,25 @@ def stream_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
     if 0 < umm <= 10:
-        bar = "A·─·─·─·─·─·─·─·─·─"
+        bar = "✄·─·─·─·─·─·─·─·─·─"
     elif 10 < umm < 20:
-        bar = "AˋˏU·─·─·─·─·─·─·─·─"
+        bar = "-ˋˏ✄·─·─·─·─·─·─·─·─"
     elif 20 <= umm < 30:
-        bar = "AˋˏUˋˏJ·─·─·─·─·─·─·─"
+        bar = "-ˋˏ-ˋˏ✄·─·─·─·─·─·─·─"
     elif 30 <= umm < 40:
-        bar = "AˋˏUˋˏJˋˏL·─·─·─·─·─·─"
+        bar = "-ˋˏ-ˋˏ-ˋˏ✄·─·─·─·─·─·─"
     elif 40 <= umm < 50:
-        bar = "AˋˏUˋˏJˋˏLˋˏA·─·─·─·─·─"
+        bar = "-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄·─·─·─·─·─"
     elif 50 <= umm < 60:
-        bar = "AˋˏUˋˏJˋˏLˋˏAˋˏM·─·─·─·─"
+        bar = "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄·─·─·─·─"
     elif 60 <= umm < 70:
-        bar = "AˋˏUˋˏJˋˏLˋˏAˋˏMˋˏU·─·─·─"
+        bar = "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄·─·─·─"
     elif 70 <= umm < 80:
-        bar = "AˋˏUˋˏJˋˏLˋˏAˋˏMˋˏUˋˏS·─·─"
+        bar = "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄·─·─"
     elif 80 <= umm < 95:
-        bar = "AˋˏUˋˏJˋˏLˋˏAˋˏMˋˏUˋˏSˋˏI·─"
+        bar = "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄·─"
     else:
-        bar = "AˋˏUˋˏJˋˏLˋˏAˋˏMˋˏUˋˏSˋˏIˋˏC·"
+        bar = "-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ-ˋˏ✄·"
     buttons = [
                 [
             InlineKeyboardButton(
@@ -69,14 +69,14 @@ def stream_markup_timer(_, chat_id, played, dur):
                  [
             InlineKeyboardButton(
 
-                text="💁Meri Jaan",
+                text="🖱️ OWNER",
 
-                url=f"https://t.me/The_ChatGroup",
+                url=f"t.me/{OWNER_USERNAME}",
 
             ),
             InlineKeyboardButton(
 
-                text="Jion Group🙋",
+                text="GROUP 🖱️",
 
                 url=f"{SUPPORT_CHAT}",
 
@@ -99,14 +99,14 @@ def stream_markup(_, chat_id):
                  [
             InlineKeyboardButton(
 
-                text="💁Meri Jann",
+                text="🖱️ OWNER",
 
-                url=f"https://t.me/The_ChatGroup",
+                url=f"t.me/{OWNER_USERNAME}",
 
             ),
             InlineKeyboardButton(
 
-                text="Jion Group🙋",
+                text="GROUP 🖱️",
 
                 url=f"{SUPPORT_CHAT}",
 
