@@ -72,7 +72,7 @@ async def _greet(_, message):
                 f"💳 {member.username}\n"
                 f"🪪 {member.id}\n"
                 f"______________________\n"
-                f"👥𝐂ᴏᴍᴘʟᴇᴛᴇᴅ {count} 𝐌ᴇᴍʙᴇʀ𝐬🎉/n"
+                f"👥𝐂ᴏᴍᴘʟᴇᴛᴇᴅ {count} 𝐌ᴇᴍʙᴇʀ𝐬🎉\n"
                 f"➖➖➖➖➖➖➖➖➖➖➖\n"
             )
             await app.send_photo(message.chat.id, photo=random.choice(photo), caption=msg, reply_markup=InlineKeyboardMarkup([
